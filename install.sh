@@ -46,8 +46,14 @@ clear
 echo -e "[>] \033[32mFile created\033[0m"
 echo -e "[>] \033[32mLaunching the bot..\033[0m"
 
+echo ""
+
+echo "Created by \033[32mTizi\033[0m"
+
+echo ""
+
 echo -e "\033[32mПроверка бота:\033[0m"
-echo -e "Пригласите бота на ваш сервер, после чего пропишите команду \033[35m!hi\033[0m"
+echo -e "Пригласите бота на ваш сервер, после чего пропишите     команду \033[32m!hi\033[0m"
 
 python ~/storage/shared/Bot/main.py
 
