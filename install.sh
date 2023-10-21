@@ -1,19 +1,4 @@
 clear
-echo -e "[>] \033[32mUpdate pkg\033[0m"
-sleep 1
-pkg update
-
-clear
-echo -e "[>] \033[32mUpgrade pkg\033[0m"
-sleep 1
-pkg upgrade
-
-clear
-echo -e "[>] \033[32mAccess to folders\033[0m"
-sleep 1
-termux-setup-storage
-
-clear
 echo -e "[>] \033[32mInstall Python..\033[0m"
 sleep 1
 pkg install python -y
